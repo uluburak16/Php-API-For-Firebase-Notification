@@ -5,6 +5,7 @@
  * Date: 8.04.2019
  * Time: 22:56
  */
+namespace Firebase\Notification;
 
 class JsonBuilder
 {

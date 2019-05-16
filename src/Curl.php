@@ -5,6 +5,7 @@
  * Date: 10.04.2019
  * Time: 13:55
  */
+namespace Firebase\Notification;
 
 class Curl
 {

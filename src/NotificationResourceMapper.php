@@ -5,6 +5,7 @@
  * Date: 10.04.2019
  * Time: 14:44
  */
+namespace Firebase\Notification;
 
 class NotificationResourceMapper
 {

@@ -5,9 +5,7 @@
  * Date: 8.04.2019
  * Time: 22:46
  */
-
-require_once 'BaseModel.php';
-require_once 'JsonBuilder.php';
+namespace Firebase\Notification;
 
 class CreateNotificationProperties extends BaseModel
 {

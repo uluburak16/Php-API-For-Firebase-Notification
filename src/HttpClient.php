@@ -5,9 +5,7 @@
  * Date: 10.04.2019
  * Time: 13:55
  */
-
-require_once 'Curl.php';
-
+namespace Firebase\Notification;
 
 class HttpClient extends Curl
 {

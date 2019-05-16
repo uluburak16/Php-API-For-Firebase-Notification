@@ -5,8 +5,7 @@
  * Date: 10.04.2019
  * Time: 14:38
  */
-
-require_once 'NotificationResourceMapper.php';
+namespace Firebase\Notification;
 
 class NotificationMapper extends NotificationResourceMapper
 {

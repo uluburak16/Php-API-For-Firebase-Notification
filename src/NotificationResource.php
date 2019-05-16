@@ -5,8 +5,7 @@
  * Date: 10.04.2019
  * Time: 13:55
  */
-
-require_once 'HttpClient.php';
+namespace Firebase\Notification;
 
 class NotificationResource extends HttpClient
 {

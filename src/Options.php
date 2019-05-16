@@ -5,6 +5,7 @@
  * Date: 8.04.2019
  * Time: 22:39
  */
+namespace Firebase\Notification;
 
 class Options
 {

@@ -5,8 +5,7 @@
  * Date: 8.04.2019
  * Time: 23:00
  */
-
-require_once 'JsonConvertible.php';
+namespace Firebase\Notification;
 
 abstract class BaseModel implements JsonConvertible
 {

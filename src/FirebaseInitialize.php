@@ -5,10 +5,7 @@
  * Date: 10.04.2019
  * Time: 13:51
  */
-
-require_once 'FBConfig.php';
-require_once 'NotificationResource.php';
-require_once 'NotificationMapper.php';
+namespace Firebase\Notification;
 
 class FirebaseInitialize extends NotificationResource
 {
