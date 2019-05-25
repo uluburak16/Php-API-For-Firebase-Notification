@@ -9,12 +9,12 @@
    4. [Set Specific Data](#data)
 
 <a name="links"></a>
-###Links
+### Links
 
 See (https://firebase.google.com/docs/cloud-messaging)
 
 <a name="send"></a>
-###Send Message to Device
+### Send Message to Device
 
     <?php
 	$notify = new CreateNotificationProperties();
@@ -27,7 +27,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	   ?>
 
 <a name="multiple"></a>
-###Send Message to Multiple Device
+### Send Message to Multiple Device
 
     <?php
 	$notify = new CreateNotificationProperties();
@@ -40,7 +40,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	?>
 
 <a name="properties"></a>
-###Set Properties of Your Notification
+### Set Properties of Your Notification
 
     <?php
 	$notify = new CreateNotificationProperties();
@@ -57,7 +57,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	?>
 
 <a name="data"></a>
-###Set Specific Data
+### Set Specific Data
 
     <?php
 	$notify->setMessage('Test')
