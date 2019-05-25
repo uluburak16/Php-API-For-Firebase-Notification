@@ -21,6 +21,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	   
 	   var_dump(FirebaseInitialize::create($notify)->getResult());
 	   ?>
+    
 
 ###Send Message to Multiple Device
 
@@ -35,7 +36,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	?>
 
 ###Set properties of your notification
-	<?php
+    <?php
 	$notify->setMessage('Test')
 	   ->setTitle('Firebase Notification')
 	   ->setDeviceToken([SET_DEVİCE_TOKENS]) // an array
@@ -48,7 +49,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	?>
 
 ###Set specific data
-	<?php
+    <?php
 	$notify->setMessage('Test')
 	   ->setTitle('Firebase Notification')
 	   ->setData(['animal' => 'cat' ]) // e.g.
