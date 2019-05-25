@@ -1,6 +1,6 @@
 #PHP Firebase Notification API
 
-# Table of contents
+**Contents**
 1. [Links](#links)
 2. [Notification](#send)
    1. [Send Message to Device](#send)
