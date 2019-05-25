@@ -1,15 +1,19 @@
 #PHP Firebase Notification API
 
-**Table of Contents**
+# Table of contents
+1. [Links](#links)
+2. [Notification](#send)
+    [Send Message to Device](#send)
+    [Send Message to Multiple Device](#multiple)
+    [Set Properties of Your Notification](#properties)
+    [Set Specific Data](#data)
 
-[TOCM]
-
-[TOC]
-
+<a name="links"></a>
 ###Links
 
 See (https://firebase.google.com/docs/cloud-messaging)
 
+<a name="send"></a>
 ###Send Message to Device
 
     <?php
@@ -22,6 +26,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	   var_dump(FirebaseInitialize::create($notify)->getResult());
 	   ?>
 
+<a name="multiple"></a>
 ###Send Message to Multiple Device
 
     <?php
@@ -34,12 +39,16 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	   var_dump(FirebaseInitialize::create($notify)->getResult());
 	?>
 
-###Set properties of your notification
+<a name="properties"></a>
+###Set Properties of Your Notification
+
     <?php
+	$notify = new CreateNotificationProperties();
+	
 	$notify->setMessage('Test')
 	   ->setTitle('Firebase Notification')
-	   ->setDeviceToken([SET_DEVİCE_TOKENS]) // an array
-	   ->setVibrate(1) // 0 or 1
+	   ->setDeviceToken([SET_DEVİCE_TOKENS]) // array
+	   	   ->setVibrate(1) // 0 or 1
 	   ->setSound(1)
 	   ->setPriority('high')
 	   ->setBadge(5) // integer
@@ -47,7 +56,8 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	   var_dump(FirebaseInitialize::create($notify)->getResult());
 	?>
 
-###Send Message to Device
+<a name="data"></a>
+###Set Specific Data
 
     <?php
 	$notify->setMessage('Test')
