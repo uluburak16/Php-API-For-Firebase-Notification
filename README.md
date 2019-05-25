@@ -1,4 +1,4 @@
-#PHP Firebase Notification API
+# PHP Firebase Notification API
 
 **Contents**
 1. [Links](#links)
