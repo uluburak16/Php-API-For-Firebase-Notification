@@ -3,10 +3,10 @@
 # Table of contents
 1. [Links](#links)
 2. [Notification](#send)
-    [Send Message to Device](#send)
-    [Send Message to Multiple Device](#multiple)
-    [Set Properties of Your Notification](#properties)
-    [Set Specific Data](#data)
+   1. [Send Message to Device](#send)
+   2. [Send Message to Multiple Device](#multiple)
+   3. [Set Properties of Your Notification](#properties)
+   4. [Set Specific Data](#data)
 
 <a name="links"></a>
 ###Links
