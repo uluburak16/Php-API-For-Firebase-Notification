@@ -21,7 +21,7 @@ See (https://firebase.google.com/docs/cloud-messaging)
 	
 	$notify->setMessage('Test')
 	   ->setTitle('Firebase Notification')
-	   ->setDeviceToken(SET_DEVİCE_TOKEN) // with signle or array
+	   ->setDeviceToken(SET_DEVİCE_TOKEN) // with single or array
 	   
 	   var_dump(FirebaseInitialize::create($notify)->getResult());
 	   ?>
